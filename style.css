@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.upercase{
+    text-transform: uppercase;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(244, 245, 243);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.main-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-para{
+    color: #000;
+}
+
+.contact-para a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+}
+.contact-para a:hover{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.socialmedia{
+    /* font-weight: bold; */
+    font-size: 16px;
+
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+}
+.socialmedia:hover{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.vertical-line{
+    border-left: 2px solid #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#education{
+    text-align: justify;
+}
+
+#education table{
+    width: 100%;
+    text-align: center;
+}
+#education table tr th{
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#education table tr td{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.qualification-column{
+    border-left: 2px solid #000;
+}
+
+/* .experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+} */
+
+/* Projects */
+#projects{
+    text-align: justify;
+}
+hr{
+    margin-bottom: 20px;
+}
+#projects table{
+    width: 100%;
+    text-align: center;
+}
+#projects table tr th{
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+#projects table tr td{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.projectName-column{
+    border-left: 2px solid #000;
+    width: 14rem;
+    text-align: center;
+}
+.project-desc{
+    text-align: justify;
+    width: 33rem;
+}
+
+/* Skills */
+
+#skills{
+    text-align: justify;
+}
+#skills li{
+    font-weight: bold;
+    margin-left: 1rem;
+    padding: 5px;
+    list-style: disc;
+}
+.web, .programming-languages, .databases, .tools, .others{
+    font-weight: normal;
+}
+
+/* Certificate */
+#certificate li{
+    text-align: justify;
+    margin-left: 1rem;
+    padding: 5px;
+    list-style: disc;
+}
+
+/* Interpersonal Skills */
+#interpersonal-skills li{
+    text-align: justify;
+    margin-left: 1rem;
+    padding: 5px;
+    list-style: disc;
+}
+
+/* Hobbies Interest*/
+#hobbies-interest li{
+    text-align: justify;
+    margin-left: 1rem;
+    padding: 5px;
+    list-style: disc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
